@@ -1,0 +1,76 @@
+body{
+    background-image: url("background.jpg");
+    
+}
+.jumbotron{
+    
+    text-align: center;
+    margin-top: 25px;
+    background-color: #342A21 !important;
+    color: aliceblue !important;
+    padding: 80%;
+    font-style: oblique;
+    
+  }
+  
+
+  .form{
+      margin: auto;
+      max-width:400px;
+      text-align: center;
+      background-color: #71816D;
+      animation: pulse 5s;
+      border-radius: 5%;
+      
+  }
+
+  input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+  }
+  #edit-box{
+    display: none;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #71816D;
+    animation: pulse 5s ;
+  }
+
+  td{
+      background-color: #71816D;
+      padding-right: 10px;
+      text-align: left;
+      color: white;
+      animation: pulse 5s ;
+      border-radius: 5%;
+  }
+  @keyframes pulse {
+    0% {
+      background-color: #F1E0C5;
+    }
+    100% {
+      background-color: #71816D;
+    }
+  }
+
+  .to-do{
+      background: transparent !important;
+  }
+  .slide {
+
+    animation-duration: 3s;
+    
+    animation-name: slidein;
+    
+    }
+   
+    @keyframes slidein {
+    
+    from {
+    
+    margin-left: 100%;
+    
+    width: 300%;
+    
+    }}
+  
